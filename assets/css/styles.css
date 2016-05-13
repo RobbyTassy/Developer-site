@@ -26,7 +26,7 @@ h6 {
   color: #778492;
 }
 a {
-  color: #3AAA64;
+  color: #463B86;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -34,8 +34,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #5f6b77;
-  color: #2d844e;
+  color: #463B86;
 }
 a:focus {
   text-decoration: none;
@@ -60,16 +59,16 @@ a.btn:focus {
 }
 a.btn-cta-primary,
 .btn-cta-primary {
-  background: #54ba4e;
-  border: 1px solid #54ba4e;
+  background: #463B86;
+  border: 1px solid #463B86;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 a.btn-cta-primary:hover,
 .btn-cta-primary:hover {
-  background: #49ac43;
-  border: 1px solid #49ac43;
+  background: #463B86;
+  border: 1px solid #463B86;
   color: #fff;
 }
 a.btn-cta-secondary,
@@ -112,12 +111,12 @@ iframe {
 .iframe-wrapper {
     overflow: auto;
     -webkit-overflow-scrolling:touch;
-}
-*/
+}*/
+
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
-  background: #f5f5f5;
+  background: #green;
   /*border-top: 10px solid #778492;*/
 }
 .header .btn {
@@ -127,15 +126,16 @@ iframe {
 .header .profile-image {
   margin-right: 30px;
   border-radius: 100px;
+  border: 2px white solid;
 }
 .header .profile-content .name {
-  color: #49515a;
+  color: #463B86;
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 30px;
 }
 .header .profile-content .desc {
-  color: #778492;
+  color: #463B86;
   font-family: "Lato", arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -143,7 +143,7 @@ iframe {
   margin-bottom: 15px;
 }
 .header .profile-content .social a {
-  background: #b0b7bf;
+  background: white;
   width: 36px;
   height: 36px;
   display: inline-block;
@@ -155,11 +155,13 @@ iframe {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  color: #fff;
+  color: #463B86;
   text-align: center;
+  border: 1px white solid;
 }
 .header .profile-content .social a:hover {
-  background: #778492;
+  background: white;
+  border: 1px #463B86 solid;
 }
 .header .profile-content .social a .fa {
   font-size: 20px;
@@ -383,7 +385,7 @@ iframe {
 }
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #66cb8c;
+  background: #463B86;
 }
 /* Testimonials section */
 .testimonials .item {
@@ -395,12 +397,13 @@ iframe {
 .testimonials .item .quote {
   color: #666;
   font-size: 16px;
-  border-left-color: #9fdeb7;
+  border-left-color: #463B86;
   margin-bottom: 15px;
 }
 .testimonials .item .quote .fa {
-  color: #79d19a;
-  margin-right: 15px;
+  color: #463B86;
+  margin-right: 8px;
+  margin-left: 8px;
 }
 .testimonials .item .source {
   font-size: 14px;
@@ -450,7 +453,7 @@ iframe {
   margin-bottom: 0;
 }
 .languages .item .fa {
-  color: #79d19a;
+  color: #463B86;
 }
 /* Blog Section */
 .blog .item {
