@@ -210,10 +210,19 @@ iframe {
 .latest .item .title a:hover {
   color: #5f6b77;
 }
+
+.project-image {
+  border: 3px #463B86 solid;
+  /*border-radius: 6px;*/
+  margin-top: 15px;
+  height: 130px;
+}
+
 .latest .item .project-image:hover {
-  -webkit-opacity: 0.8;
-  -moz-opacity: 0.8;
-  opacity: 0.8;
+  /*-webkit-opacity: 0.8;
+  -moz-opacity: 0.8;*/
+  /*opacity: 0.8;*/
+  border: 3px #463B86 dotted;
 }
 .latest .divider {
   margin-bottom: 60px;
