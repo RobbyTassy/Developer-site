@@ -13,7 +13,7 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
+    
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Plugins CSS -->
@@ -47,9 +47,9 @@
                 <h2 class="desc"> Engineer | Problem Solver | Team Player </h2>
                 <ul class="social list-inline">
                     <li><a href="http://www.twitter.com/robbytassy" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="http://www.facebook.com/roberttassy" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <!-- <li><a href="http://www.facebook.com/roberttassy" target="_blank"><i class="fa fa-facebook"></i></a></li> -->
                     <li><a href="http://www.linkedin.com/in/roberttassy" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="http://www.github.com/robbytassy" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+                    <li><a href="http://www.github.com/roberttassy" target="_blank"><i class="fa fa-github-alt"></i></a></li>
                     <!-- <li class="last-item"><a href="#"><i class="fa fa-hacker-news"></i></a></li> -->
                 </ul>
             </div><!--//profile-->
@@ -71,7 +71,7 @@
                               deliver that distribution has changed.</p>
 
                               <p>Born and raised in Miami, Florida the hurdles of my career took me to the Internet
-                              where I obessess over user experience, audience engagement, and measurable traffic
+                              where I obsess over user experience, audience engagement, and measurable traffic
                               to quantify key performance indicators and return on investment. When I'm not coding and
                               staying up-to-date on current technology trends and innovation, I'm likely
                               meditating, sight-seeing, exercising, or reading my favorite <a href="http://hbr.org/the-latest" target="_blank">Harvard Business Review</a>, <a href="http://firstround.com/review/" target="_blank">First Round Review</a>,
@@ -183,7 +183,7 @@
                             </div><!--//item-->
                             <div class="item">
                                 <h3 class="title">Videography</h3>
-                                <p class="summary">Originally a Final Cut Pro guru, now shifted to Adobe Premiere to compelement Adobe Suites. Knowledgeable in Pre and Post Production.</p>
+                                <p class="summary">Originally a Final Cut Pro guru, now shifted to Adobe Premiere to complement Adobe Suites. Knowledgeable in Pre and Post Production.</p>
                                 <p><a class="more-link" href="https://www.youtube.com/channel/UCmttDBF24CjSqw8RHZGC7hQ" target="_blank"><i class="fa fa-external-link"></i> View on YouTube</a></p>
                             </div><!--//item-->
 
@@ -197,13 +197,19 @@
                     <div class="section-inner">
                         <h1 class="heading">Robert Tassy Work Experience</h1>
                         <div class="content">
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="title">Software Developer in Test <span class="place"><a href="#">Invitae</a></span> <span class="year">(2019 - Present)</span></h3>
+                            <p>
+                                With over 1 million samples served, Invitae’s mission is to bring comprehensive genetic information into mainstream medicine to improve healthcare for billions of people.
+                            </p>
                           <div class="item">
-                              <h3 class="title">Quality Assurance Lead - <span class="place"><a href="#">PlanGrid</a></span> <span class="year">(2018 - Present)</span></h3>
+                              <h3 class="title">Quality Assurance Lead - <span class="place"><a href="#">PlanGrid, acquired by Autodesk</a></span> <span class="year">(2018 - 2019)</span></h3>
                               <p>
                                 With over 1 million projects created, PlanGrid is construction's leading productivity software; providing real-time updates and seamless file synchronization over Wi-Fi and cellular networks. </p>
                           </div><!--//item-->
                           <div class="item">
-                              <h3 class="title">Quality Assurance Engineer - <span class="place"><a href="#">Location Labs</a></span> <span class="year">(2016 - 2018)</span></h3>
+                              <h3 class="title">Quality Assurance Engineer - <span class="place"><a href="#">Location Labs acquired by Avast Antivirus</a></span> <span class="year">(2016 - 2018)</span></h3>
                               <p>
                                 Location Labs is the global pioneer in mobile security for humans. With more than 1.3 million monthly paying subscribers worldwide, our mobile application helps families stay safe and secure. </p>
                           </div><!--//item-->
@@ -224,17 +230,24 @@
                     <div class="section-inner">
 
                         <h2 class="heading">My GitHub</h2>
+                        <!-- Include the library. -->
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 
-                        <!-- <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget. -->
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<!-- <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" /> -->
 
-                        <div id="github-graph" class="github-graph">
+<!-- Prepare a container for your calendar. -->
+<div class="calendar">
+  <!-- Loading stuff -->
+  Loading the data just for you.
+</div>
 
-                        </div><!--//github-graph-->
+<script>
 
-                        <!-- <p>You can also embed your GitHub activities using Casey Scarborough's <a href="http://caseyscarborough.com/projects/github-activity/" target="_blank">GitHub Activity Stream</a> widget. -->
-                        <!--//Usage: http://caseyscarborough.com/projects/github-activity/ -->
-                        <div id="ghfeed" class="ghfeed">
-                        </div><!--//ghfeed-->
+  GitHubCalendar(".calendar", "roberttassy", { responsive: true });
+</script>
+                        
+
 
                     </div><!--//secton-inner-->
                 </section><!--//section-->
@@ -247,7 +260,7 @@
                             <ul class="list-unstyled">
                                 <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>San Francisco, California - USA</li>
                                 <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:r.tassy@miami.edu?Subject=Was%20Just%20On%20Your%20Website!" target="_blank">r.tassy@miami.edu</a></li>
-                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="http://www.roberttassy.co">www.roberttassy.co</a></li>
+                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="www.developer-robby.com">www.robertassy.co</a></li>
                             </ul>
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -265,7 +278,7 @@
                                 <div class="item">
 
                                   <div class="item">
-                                      <h3 class="level-title">HTML5, CSS3, SASS <span class="level-label">Journeyman</span></h3>
+                                      <h3 class="level-title">Frontend development (JS) <span class="level-label">Journeyman</span></h3>
                                       <div class="level-bar">
                                           <div class="level-bar-inner" data-level="95%">
                                           </div>
@@ -273,7 +286,7 @@
                                   </div><!--//item-->
 
                                   <div class="item">
-                                      <h3 class="level-title">Javascript (ES6) &amp; jQuery<span class="level-label">Journeyman</span></h3>
+                                      <h3 class="level-title">Frameworks (JS) <span class="level-label">Journeyman</span></h3>
                                       <div class="level-bar">
                                           <div class="level-bar-inner" data-level="75%">
                                           </div>
@@ -281,7 +294,7 @@
                                   </div><!--//item-->
 
                                   <div class="item">
-                                      <h3 class="level-title">Ruby on Rails &amp; Python <span class="level-label">Journeyman</span></h3>
+                                      <h3 class="level-title">Backend development &amp; (Python) <span class="level-label">Journeyman</span></h3>
                                       <div class="level-bar">
                                           <div class="level-bar-inner" data-level="65%">
                                           </div>
@@ -388,7 +401,8 @@
                         <h2 class="heading">Conferences</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fa fa-calendar"></i> <a href="http://emergeamericas.com/" target="_blank">eMerge Americas 2016</a> (Miami Beach)</li>
+                                <li><i class="fa fa-calendar"></i> <a href="https://www.devcolor.org/events/2019/7/12/devcolor-in-motion" target="_blank">/Dev/Color in Motion</a> (Menlo Park, CA)</li>
+                                <li><i class="fa fa-calendar"></i> <a href="http://emergeamericas.com/" target="_blank">eMerge Americas 2016</a> (Miami Beach, FL)</li>
                                 <!-- <li><i class="fa fa-calendar"></i> <a href="http://hive.aigaseattle.org/">Hive</a> (Seattle)</li> -->
                             </ul>
                         </div><!--//content-->
@@ -430,7 +444,9 @@
 
 
     <!-- <script>var sharebutton_is_horizontal = false; document.write('<script src="//cdn.front.to/libs/share7.js"></scr' + 'ipt>'); document.write("<div style='display: none'>");</script><a href="http://sharebutton.org/">share buttons</a><script>document.write("</div>");</script> -->
+    
 
+    
     <!-- Javascript -->
     <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
